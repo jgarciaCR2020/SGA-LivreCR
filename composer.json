@@ -24,7 +24,7 @@
         "novosga/composer-installer-plugin": "v1.0",
         "novosga/core": "^2.0",
         "novosga/monitor-bundle": "^2.0",
-        "novosga/reports-bundle": "^2.0",
+        "novosga/reports-bundle": "dev-stable",
         "novosga/settings-bundle": "^2.0",
         "novosga/triage-bundle": "^2.0",
         "novosga/users-bundle": "^2.0",
@@ -102,6 +102,12 @@
     "extra": {
         "branch-alias": {
             "dev-master": "2.1-dev"
+        }
+    },
+    "repositories": {
+        "repo-name": {
+            "type": "vcs",
+            "url": "https://github.com/patadejaguar/reports-bundle.git"
         }
     }
 }

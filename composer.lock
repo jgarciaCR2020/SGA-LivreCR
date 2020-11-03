@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1089bd95de9bd25f88f796d0149a585a",
+    "content-hash": "100b204ef5eed8af5014adf82052b9f1",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1176,6 +1176,7 @@
             "keywords": [
                 "reflection"
             ],
+            "abandoned": "roave/better-reflection",
             "time": "2018-06-14T14:45:07+00:00"
         },
         {
@@ -1867,15 +1868,15 @@
         },
         {
             "name": "novosga/reports-bundle",
-            "version": "v2.0.3",
+            "version": "dev-stable",
             "source": {
                 "type": "git",
-                "url": "https://github.com/novosga/reports-bundle.git",
+                "url": "https://github.com/patadejaguar/reports-bundle.git",
                 "reference": "e390dc9a5f11655307e377da8d4135c2ee24dd06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/novosga/reports-bundle/zipball/e390dc9a5f11655307e377da8d4135c2ee24dd06",
+                "url": "https://api.github.com/repos/patadejaguar/reports-bundle/zipball/e390dc9a5f11655307e377da8d4135c2ee24dd06",
                 "reference": "e390dc9a5f11655307e377da8d4135c2ee24dd06",
                 "shasum": ""
             },
@@ -1894,10 +1895,12 @@
                     "Novosga\\ReportsBundle\\": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
+            "support": {
+                "source": "https://github.com/patadejaguar/reports-bundle/tree/v2.0.3"
+            },
             "time": "2019-03-15T22:13:35+00:00"
         },
         {
@@ -2166,12 +2169,12 @@
             "version": "v1.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/whiteoctober/Pagerfanta.git",
+                "url": "https://github.com/BabDev/Pagerfanta.git",
                 "reference": "8400ab498e500018cff9a099ac22555e7949aa9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/whiteoctober/Pagerfanta/zipball/8400ab498e500018cff9a099ac22555e7949aa9a",
+                "url": "https://api.github.com/repos/BabDev/Pagerfanta/zipball/8400ab498e500018cff9a099ac22555e7949aa9a",
                 "reference": "8400ab498e500018cff9a099ac22555e7949aa9a",
                 "shasum": ""
             },
@@ -6355,6 +6358,7 @@
                 "code",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-code",
             "time": "2018-08-13T20:36:59+00:00"
         },
         {
@@ -6409,6 +6413,7 @@
                 "events",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-eventmanager",
             "time": "2018-04-25T15:33:34+00:00"
         }
     ],
@@ -6461,6 +6466,7 @@
                 "monolog",
                 "productivity"
             ],
+            "abandoned": true,
             "time": "2018-07-27T15:41:37+00:00"
         },
         {
@@ -6468,12 +6474,12 @@
             "version": "1.6.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/facebook/php-webdriver.git",
+                "url": "https://github.com/php-webdriver/php-webdriver-archive.git",
                 "reference": "bd8c740097eb9f2fc3735250fc1912bc811a954e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/php-webdriver/zipball/bd8c740097eb9f2fc3735250fc1912bc811a954e",
+                "url": "https://api.github.com/repos/php-webdriver/php-webdriver-archive/zipball/bd8c740097eb9f2fc3735250fc1912bc811a954e",
                 "reference": "bd8c740097eb9f2fc3735250fc1912bc811a954e",
                 "shasum": ""
             },
@@ -6521,6 +6527,7 @@
                 "selenium",
                 "webdriver"
             ],
+            "abandoned": "php-webdriver/webdriver",
             "time": "2018-05-16T17:37:13+00:00"
         },
         {
@@ -7456,7 +7463,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "novosga/reports-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

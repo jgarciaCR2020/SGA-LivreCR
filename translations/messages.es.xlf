@@ -38,7 +38,7 @@
             </trans-unit>
             <trans-unit id="8">
                 <source>label.success</source>
-                <target>Exito</target>
+                <target>Éxito</target>
                 
             </trans-unit>
             <trans-unit id="9">
@@ -93,7 +93,7 @@
             </trans-unit>
             <trans-unit id="19">
                 <source>button.close</source>
-                <target>Fechar</target>
+                <target>Cerrar</target>
                 
             </trans-unit>
             <trans-unit id="20">
@@ -138,7 +138,7 @@
             </trans-unit>
             <trans-unit id="28">
                 <source>print.ticket.date</source>
-                <target>Hora de Llegada 1%time% (Hora Local)</target>
+                <target>Hora de Llegada %time% (Hora Local)</target>
                 
             </trans-unit>
             <trans-unit id="29">
@@ -153,7 +153,7 @@
             </trans-unit>
             <trans-unit id="31">
                 <source>label.password</source>
-                <target>Billete</target>
+                <target>Contraseña</target>
                 
             </trans-unit>
             <trans-unit id="32">
@@ -163,7 +163,7 @@
             </trans-unit>
             <trans-unit id="33">
                 <source>home.welcome.title</source>
-                <target>Bienvenido, 1%name%</target>
+                <target>Bienvenido, %name%</target>
                 
             </trans-unit>
             <trans-unit id="34">
@@ -253,7 +253,7 @@
             </trans-unit>
             <trans-unit id="51">
                 <source>about.community.github.description</source>
-                <target>Participe directamente del desarrollo informando problemas (issues).</target>
+                <target>Apoye informando problemas (issues).</target>
                 
             </trans-unit>
             <trans-unit id="52">
@@ -283,7 +283,7 @@
             </trans-unit>
             <trans-unit id="57">
                 <source>profile.field.username</source>
-                <target>Login</target>
+                <target>Ingreso</target>
                 
             </trans-unit>
             <trans-unit id="58">
@@ -298,7 +298,7 @@
             </trans-unit>
             <trans-unit id="60">
                 <source>label.email</source>
-                <target>Correo Electronico</target>
+                <target>Correo Electrónico</target>
                 
             </trans-unit>
             <trans-unit id="61">
@@ -438,17 +438,17 @@
             </trans-unit>
             <trans-unit id="84">
                 <source>admin.places.title</source>
-                <target>Locales</target>
+                <target>Lugares</target>
                 
             </trans-unit>
             <trans-unit id="85">
                 <source>admin.places.subtitle</source>
-                <target>Registro de locales de atención</target>
+                <target>Registro de lugares de atención</target>
                 
             </trans-unit>
             <trans-unit id="86">
                 <source>admin.places.button.new</source>
-                <target>Nuevo local</target>
+                <target>Nuevo Lugar</target>
                 
             </trans-unit>
             <trans-unit id="87">
@@ -483,7 +483,7 @@
             </trans-unit>
             <trans-unit id="93">
                 <source>admin.roles.field.modules</source>
-                <target>Perisos</target>
+                <target>Permisos</target>
                 
             </trans-unit>
             <trans-unit id="94">

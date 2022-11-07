@@ -93,7 +93,7 @@
             </trans-unit>
             <trans-unit id="19">
                 <source>button.close</source>
-                <target>Fechar</target>
+                <target>Cerrar</target>
                 
             </trans-unit>
             <trans-unit id="20">
@@ -153,7 +153,7 @@
             </trans-unit>
             <trans-unit id="31">
                 <source>label.password</source>
-                <target>Billete</target>
+                <target>Tiquete</target>
                 
             </trans-unit>
             <trans-unit id="32">
@@ -483,7 +483,7 @@
             </trans-unit>
             <trans-unit id="93">
                 <source>admin.roles.field.modules</source>
-                <target>Perisos</target>
+                <target>Permisos</target>
                 
             </trans-unit>
             <trans-unit id="94">
